@@ -10,6 +10,7 @@ src/
 │   ├── FaturaController.ts
 │   ├── LeituraController.ts
 │   └── PagamentoController.ts
+
 ├── middlewares/
 │   ├── authMiddleware.ts
 │   └── validationMiddleware.ts
