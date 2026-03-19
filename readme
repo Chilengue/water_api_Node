@@ -1,0 +1,53 @@
+src/
+├── config/
+│   ├── database.ts
+│   └── auth.ts
+├── controllers/
+│   ├── AuthController.ts
+│   ├── ConsumidorController.ts
+│   ├── DashboardController.ts
+│   ├── FuncionarioController.ts
+│   ├── FaturaController.ts
+│   ├── LeituraController.ts
+│   └── PagamentoController.ts
+├── middlewares/
+│   ├── authMiddleware.ts
+│   └── validationMiddleware.ts
+├── models/
+│   ├── index.ts
+│   ├── Usuario.ts
+│   ├── Papel.ts
+│   ├── UsuarioPapel.ts
+│   ├── Consumidor.ts
+│   ├── Funcionario.ts
+│   ├── Leitura.ts
+│   ├── Fatura.ts
+│   ├── Pagamento.ts
+│   └── Auditoria.ts
+├── routes/
+│   ├── index.ts
+│   ├── authRoutes.ts
+│   ├── consumidorRoutes.ts
+│   ├── dashboardRoutes.ts
+│   ├── funcionarioRoutes.ts
+│   ├── faturaRoutes.ts
+│   ├── leituraRoutes.ts
+│   └── pagamentoRoutes.ts
+├── services/
+│   ├── AuthService.ts
+│   ├── ConsumidorService.ts
+│   ├── DashboardService.ts
+│   ├── FuncionarioService.ts
+│   ├── FaturaService.ts
+│   ├── LeituraService.ts
+│   └── PagamentoService.ts
+├── utils/
+│   ├── constantes.ts
+│   └── helpers.ts
+├── validations/
+│   ├── consumidorValidation.ts
+│   ├── faturaValidation.ts
+│   ├── leituraValidation.ts
+│   └── pagamentoValidation.ts
+└── server/
+    └── server.ts
