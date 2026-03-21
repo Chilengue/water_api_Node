@@ -56,7 +56,9 @@ class App {
     // Rotas da API
     this.app.use('/api', routes);
   }
-
+app.get('/test', (req, res) => {
+  res.send('API OK');
+});
   private inicializarTratamentoErros(): void {
     // Rota não encontrada (404)
     this.app.use((req: Request, res: Response) => {
